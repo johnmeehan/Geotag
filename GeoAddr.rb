@@ -20,7 +20,7 @@ end
 address = ARGV[0] 
 if address.nil?
 	puts "No Address Given! Call with GeoAddr.rb \"4 MyStreet MyTown\" "
-	#puts get_coordinates_for "4 Hazelhall, Monaleen, Limerick, Ireland" 
+	 
 else
 	puts get_coordinates_for address
 end
